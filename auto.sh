@@ -5,11 +5,11 @@ do
     i=0
     x=$((RANDOM%5))
     randdirec=$((RANDOM%4))
-    dance=$((RANDOM%100))
+    dance=$((RANDOM%200))
     g=$((RANDOM%100))
     flag=0
 
-    if [ $dance -gt 95 ]
+    if [ $dance -gt 198 ]
     then
         xdotool key z
         sleep 2
@@ -46,7 +46,7 @@ do
             esac
 
 
-            sleep 0.05
+            sleep 0.01
             i=$((i+1))
     done
     if [ $flag == 1 ]
