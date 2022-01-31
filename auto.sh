@@ -8,15 +8,19 @@ do
     dance=$((RANDOM%200))
     g=$((RANDOM%100))
     flag=0
-
+    
+    #1/200 chance of dancing
     if [ $dance -gt 198 ]
     then
+        #dance
         xdotool key z
+        #dance for 2 seconds
         sleep 2
     fi
 
-    if [ $g -gt 95 ]
+    if [ $g -gt 98 ]
     then
+        #hold down the go through people key
         xdotool keydown g
         flag=1
     fi
@@ -55,6 +59,7 @@ do
     done
     if [ $flag == 1 ]
     then
+        #release the go through people key
         xdotool keyup g
         flag=0
     fi
