@@ -3,7 +3,7 @@
 while true
 do
     i=0
-    x=$((RANDOM%5))
+    x=$(((RANDOM%7)+1))
     randdirec=$((RANDOM%4))
     dance=$((RANDOM%200))
     g=$((RANDOM%100))
