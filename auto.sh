@@ -25,19 +25,23 @@ do
     do
             case $randdirec in
                 0)
+                    #go up
                     xdotool key w
                 ;;
 
                 1)
+                    #go down
                     xdotool key s
                 ;;
 
                 2)
+                    #go left
                     xdotool key a
                 ;;
 
 
                 3)
+                    #go right
                     xdotool key d
                 ;;
 
@@ -45,7 +49,7 @@ do
                 ;;
             esac
 
-
+            #wait 0.01 seconds until the next iteration 
             sleep 0.01
             i=$((i+1))
     done
