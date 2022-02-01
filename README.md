@@ -1,4 +1,6 @@
-# GatherTownScript
+# GatherTownHacks
+
+[auto.sh](./auto.sh) contains the bash script that allows for randomised movements on GatherTown by using xdotool.
 
 On Ubuntu, install xdotool using the following,
 
