@@ -3,9 +3,16 @@
 while true
 do
     i=0
+    #generate random number between 1-7
     x=$(((RANDOM%7)+1))
+    
+    #generate random number between 0-3
     randdirec=$((RANDOM%4))
+    
+    #generate random number between 0-199
     dance=$((RANDOM%200))
+    
+    #generate random number between 0-99
     g=$((RANDOM%100))
     flag=0
     
