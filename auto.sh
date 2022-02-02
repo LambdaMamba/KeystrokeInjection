@@ -3,7 +3,7 @@
 while true
 do
     i=0
-    #generate random number between 1-7
+    #generate random number between 1-7. Minimum step is 1, maximum steps is 7. 
     x=$(((RANDOM%7)+1))
     
     #generate random number between 0-3
