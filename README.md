@@ -23,3 +23,11 @@ The details can be found on my [first blog post](https://dev.to/lambdamamba/usin
 # BadUSB that injects keystrokes and automates GatherTown movements
 
 The [BadUSB_gathertown](./BadUSB_gathertown) folder contains the .ino Arduino files used for the project to automate GatherTown movements using BadUSB. The [4_autogathertown.ino](./BadUSB_gathertown/4_autogathertown/4_autogathertown.ino) is the .ino file that automates the GatherTown movements. The details on how to setup the Arduino circuitry and the program can be found on my [second blog post](https://dev.to/lambdamamba/a-badusb-that-isnt-so-bad-making-a-keystroke-injector-in-arduino-that-automates-gathertown-movements-41jm).
+
+
+# BadUSB that uses Brute Force to crack passwords
+
+The [BadUSB_BruteForcePasswordCracker](./BadUSB_BruteForcePasswordCracker) folder contains the .ino files that can be used to crack passwords using BruteForce.
+
+The demo can be seen here:
+https://www.youtube.com/watch?v=G6a6C72Qxxs
