@@ -9,6 +9,8 @@ char charset_main[] = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9'};
 
 int len = sizeof(charset_main)/sizeof(char);
 
+int count = 0;
+
 
 void bruteforce(char charset[], String prev, int len, int n){  
     while(digitalRead(switchPin) == LOW){
@@ -19,7 +21,15 @@ void bruteforce(char charset[], String prev, int len, int n){
     if (n == 0){
         //Keyboard.println will also enter the value after typing the string out
         Keyboard.println(prev);
-        //wait at least 100 ms before typing out next password
+        count++;
+        if(count==3){
+          //after third attempt, press enter
+          Keyboard.println();
+          //reset the counter
+          count = 0;
+          //wait 1 second for page to reload
+          delay(1000);
+        }
         delay(100);
         return;
     }
