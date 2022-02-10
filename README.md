@@ -27,7 +27,5 @@ The [BadUSB_gathertown](./BadUSB_gathertown) folder contains the .ino Arduino fi
 
 # BadUSB that uses Brute Force to crack passwords
 
-The [BadUSB_BruteForcePasswordCracker](./BadUSB_BruteForcePasswordCracker) folder contains the .ino files that can be used to crack passwords using BruteForce.
-
-The demo can be seen here:
-https://www.youtube.com/watch?v=G6a6C72Qxxs
+The [BadUSB_BruteForcePasswordCracker](./BadUSB_BruteForcePasswordCracker) folder contains the files that can be programmed into the BadUSB to crack passwords using brute force.
+The details are shown in my [third blog post](https://dev.to/lambdamamba/a-badusb-that-is-pretty-useful-making-a-keystroke-injector-in-arduino-that-can-crack-passwords-using-brute-force-3e77).
